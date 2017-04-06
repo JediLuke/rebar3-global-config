@@ -1,0 +1,12 @@
+{description, "Template gen_server with additional functions and better commenting."}.
+{variables, [
+	{version_num, "1.0.0"},
+	{author_name, "Luke Taylor"},
+  	{author_email, "jediluke72@gmail.com"},
+	{module_name, "gensrv", "Name of the module"},
+    {title, "{{module_name}} gen_server", "Title for module documentation."},
+    {docstring, "{{module_name}} gen_server", "Doc string for module."},
+    {copyright_year, "2017"}
+    ]}.
+{dir, "."}.
+{template, "gensrv.erl", "{{module_name}}.erl"}.
